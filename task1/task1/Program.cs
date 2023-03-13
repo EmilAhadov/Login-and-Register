@@ -41,9 +41,9 @@ if(a==1)
     } while (tester);
 
     Array.Resize(ref userNames, userNames.Length+1);
-    userNames[userNames.Length] = userName;
+    userNames[userNames.Length-1] = userName;
     Array.Resize(ref passwords, passwords.Length + 1);
-    passwords[passwords.Length] = password1;
+    passwords[passwords.Length-1] = password1;
     a = 2;
 }
 string m = "";
